@@ -1,0 +1,60 @@
+#,CIS Control,Description,Automated/Manual
+1,1.1.1.1,Ensure cramfs kernel module is disabled,Automated
+2,1.1.1.2,Ensure freevxfs kernel module is disabled,Automated
+3,1.1.1.3,Ensure hfs kernel module is disabled,Automated
+4,1.1.1.4,Ensure hfsplus kernel module is disabled,Automated
+5,1.1.1.5,Ensure jffs2 kernel module is disabled,Automated
+6,1.1.1.6,Ensure squashfs kernel module is disabled,Automated
+7,1.1.1.7,Ensure udf kernel module is disabled,Automated
+8,1.1.1.8,Ensure usb-storage kernel module is disabled,Automated
+9,1.1.2.1,Ensure /tmp is a separate partition,Automated
+10,1.1.2.1.2,Ensure nodev option is set on /tmp,Automated
+11,1.1.2.1.3,Ensure nosuid option is set on /tmp,Automated
+12,1.1.2.1.4,Ensure noexec option is set on /tmp,Automated
+13,1.1.2.2.1,Ensure /dev/shm is a separate partition,Automated
+14,1.1.2.2.2,Ensure nodev option is set on /dev/shm,Automated
+15,1.1.2.2.3,Ensure nosuid option is set on /dev/shm,Automated
+16,1.1.2.2.4,Ensure noexec option is set on /dev/shm,Automated
+17,1.1.2.3.1,Ensure /home is a separate partition,Automated
+18,1.1.2.3.2,Ensure nodev option is set on /home,Automated
+19,1.1.2.4.1,Ensure /var is on a separate partition,Automated
+20,1.1.2.5.1,Ensure /var/tmp is on a separate partition,Automated
+21,1.1.2.5.2,Ensure nodev option is set on /var/tmp,Automated
+22,1.1.2.5.3,Ensure nosuid option is set on /var/tmp,Automated
+23,1.1.2.5.4,Ensure noexec option is set on /var/tmp,Automated
+24,1.3.1,Ensure bootloader password is set,Automated
+25,1.5.1,Ensure SELinux is installed,Automated
+26,1.5.2,Ensure SELinux is in enforcing mode,Automated
+27,1.5.3,Ensure SELinux policy is configured,Automated
+28,1.7.1,Ensure Message of the Day (MOTD) is configured properly,Automated
+29,2.1.1,Ensure xinetd is not installed,Automated
+30,2.2.1,Ensure time synchronization is configured,Automated
+31,2.3.1,Ensure cron daemon is enabled and active,Automated
+32,3.1.1,Ensure firewalld is installed and running,Automated
+33,3.2.1,Ensure IPv6 is disabled if not required,Manual
+34,4.1.1.1,Ensure auditd is installed and enabled,Automated
+35,4.1.2,Ensure audit logs are not automatically deleted,Automated
+36,5.1.1,Ensure password complexity is enforced,Automated
+37,5.3.1,Ensure password reuse is restricted,Automated
+38,5.4.1,Ensure root SSH login is disabled,Automated
+39,6.1.1,Ensure system-wide cryptographic policies are set to at least DEFAULT,Automated
+40,6.2.1,Ensure OpenSSH is configured securely,Automated
+41,6.3.4.2,Ensure audit log files mode is configured,Automated
+42,6.3.4.3,Ensure audit log files owner is configured,Automated
+43,6.3.4.4,Ensure audit log files group owner is configured,Automated
+44,6.3.4.5,Ensure audit configuration files mode is configured,Automated
+45,6.3.4.6,Ensure audit configuration files owner is configured,Automated
+46,6.3.4.7,Ensure audit configuration files group owner is configured,Automated
+47,6.3.4.8,Ensure audit tools mode is configured,Automated
+48,6.3.4.9,Ensure audit tools owner is configured,Automated
+49,6.3.4.10,Ensure audit tools group owner is configured,Automated
+50,7.1.1,Ensure permissions on /etc/passwd are configured,Automated
+51,7.1.2,Ensure permissions on /etc/passwd- are configured,Automated
+52,7.1.3,Ensure permissions on /etc/group are configured,Automated
+53,7.1.4,Ensure permissions on /etc/group- are configured,Automated
+54,7.1.5,Ensure permissions on /etc/shadow are configured,Automated
+55,7.1.6,Ensure permissions on /etc/shadow- are configured,Automated
+56,7.1.7,Ensure permissions on /etc/gshadow are configured,Automated
+57,7.1.8,Ensure permissions on /etc/gshadow- are configured,Automated
+58,7.2.1,Ensure accounts in /etc/passwd use shadowed passwords,Automated
+59,7.2.2,Ensure /etc/shadow password fields are not empty,Automated
